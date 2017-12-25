@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <router-view/>
+    <router-view class="app-page" />
   </div>
 </template>
 
@@ -11,4 +11,8 @@ export default {
 </script>
 
 <style>
+.app-page {
+  width: 100%;
+  min-height: 100vh;
+}
 </style>

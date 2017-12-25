@@ -4,8 +4,22 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-Vue.config.productionTip = false
+// import {
+//   MdButton,
+//   MdContent,
+//   MdTabs
+// } from 'vue-material/dist/components'
+// Vue.use(MdButton)
+// Vue.use(MdContent)
+// Vue.use(MdTabs)
+import VueMaterial from 'vue-material'
 
+import 'vue-material/dist/vue-material.min.css'
+import './assets/mb.css'
+
+Vue.use(VueMaterial)
+
+Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

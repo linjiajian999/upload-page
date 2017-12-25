@@ -1,6 +1,6 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
+  <div>
+    <span class="md-display-3 black87">{{ msg }}</span>
   </div>
 </template>
 
